@@ -1,0 +1,66 @@
+.container {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25vh;
+}
+
+.title {
+  font-size: 25px;
+  height: 30%;
+  align-items: center;
+  padding: 20px;
+  color: rgb(89, 91, 116);
+}
+.main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-1 {
+  width: 60%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+}
+#addTaskBtn {
+  background-color: rgb(90, 98, 230);
+  color: white;
+  width: 13%;
+  height: 60%;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+#selectOption {
+  background-color: rgba(197, 198, 216);
+  color: black;
+  width: 16%;
+  height: 60%;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.content-2 {
+  margin: auto;
+  width: 8%;
+  height: 25%;
+  background-color: rgb(217, 218, 220);
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
