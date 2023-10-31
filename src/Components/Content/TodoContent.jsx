@@ -1,5 +1,5 @@
 import "./TodoContent.css";
-import TodoModel from "./TodoModel";
+import TodoModel from "../Model/TodoModel";
 
 function TodoApp() {
   function showTodoAdd() {
